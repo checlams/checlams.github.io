@@ -45,6 +45,7 @@
   contents:
     - year: 2021 - Present
       items: 
+        - 2025 National Science Foundation CAREER Award
         - 2023 FOPAM 2023 Travel Award for Junior Faculty
         - 2022 Early-career pioneering research featured in 2022 Futures Issue of AIChE Journal
     - year: 2014 - 2020
@@ -70,7 +71,8 @@
 - title: Group Expertise
   type: list
   contents:
-    - <u>Mathematical modeling:</u> first-principle based shortcut modeling, physics-informed machine learning.
-    - <u>Optimization:</u> (mixed-integer) nonlinear programming, global optimization.
-    - <u>Control:</u> statistical process (quality) control, dynamic programming.
-    - <u>Machine learning:</u> DNN, GNN, active learning, reinforcement learning.
+    - <u>Multi-scale modeling:</u> first-principle based mathematical modeling, neural ODE/PDE solvers, physics-informed machine learning
+    - <u>AI for science:</u> digital twin solutions, efficient and scalable algorithm development for inverse problem
+    - <u>Explainable AI:</u> new ML architectures with enhanced interpretability/explainability and favorable mathematical properties
+    - <u>Optimization:</u> deterministic/stochastic optimization, robust optimization, Bayesian optimization, global optimization
+    - <u>Control:</u> Statistical process control, optimal control, (safety-constrained) reinforcement learning, multi-agent systems
