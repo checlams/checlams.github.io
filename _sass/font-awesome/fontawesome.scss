@@ -5,6 +5,7 @@
  */
 // Font Awesome core compile (Web Fonts-based)
 // -------------------------
+$fa-font-path: "/assets/webfonts";
 
 @import 'functions';
 @import 'variables';
@@ -19,3 +20,5 @@
 @import 'stacked';
 @import 'icons';
 @import 'screen-reader';
+@import "solid";
+@import "brands";
