@@ -20,7 +20,7 @@ In **Spring 2022**, I restructured and taught a brand new *CHE 3113 - Rate Opera
     </div>
     <div class="col-10 mt-3 mt-md-0">
         <a href="{{ '/assets/pdf/Course/2022_summer_school.pdf'| relative_url }}" target="_blank">
-            <img class="img-fluid" src="{{ '/assets/pdf/Course/2022_summer_school.pdf'| relative_url }}" alt="2022 ASEE/AIChE Summer School"/>
+            <img class="img-fluid" src="{{ '/assets/pdf/Course/2022_summer_school.png'| relative_url }}" alt="2022 ASEE/AIChE Summer School"/>
         </a>
     </div>
     <div class="col mt-3 mt-md-0">
