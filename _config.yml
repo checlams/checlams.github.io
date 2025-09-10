@@ -6,7 +6,7 @@ title: #CLAMS # the website title (if blank, full name will be used instead)
 first_name: #Zheyu
 middle_name:
 last_name: #Jiang
-contact_note:   Send us an email or follow us on social media.
+contact_note: Send us an email or follow us on social media.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -255,7 +255,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ['process synthesis', 'math modeling', 'optimization', 'control', 'machine learning', 'data analytics'] # these tags will be displayed on the front page of your blog
+display_tags: ["process synthesis", "math modeling", "optimization", "control", "machine learning", "data analytics"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

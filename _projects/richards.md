@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Data-Driven Computational Framework for Solving Complex PDEs
-description: Facilitating numerical solution by incorporating physics 
+description: Facilitating numerical solution by incorporating physics
 img: assets/img/projects/richards.png
 
 authors:
@@ -41,7 +41,6 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-
 ---
 
 ## Introduction
@@ -57,12 +56,13 @@ $$
 
 In particular, variable $$\textbf{K}$$ denotes the unsaturated hydraulic water conductivity expression and is a highly nonlinear function, making the Richrads equation challenging to solve. Most existing PDE solvers are based on discretization approaches such as finite difference, finite element, and finite volume. However, for finite difference and finite element methods, we observe that, upon discretization, the useful physical information associated with the transport phenomena of the PDEs is typically not preserved. On the other hand, FVM adopts an integral form of the PDE, thereby preserving some of the useful physical insights. Unfortunately, even if the PDE of interest is discretized using FVM, the discretized equations are usually transformed into a matrix equation and solved numerically. Again, this solution process loses the physical insights. Therefore, our goal is to enhance the quality and performance of the solution process by developing a novel computational framework that explores and utilizes the underlying physics behind the PDEs derived from transport phenomena.
 
-***
+---
 
 ## Solution Strategy
+
 To explore and incorporate additional useful physical insights to our algorithm, we introduce the concept of **random walk**, a stochastic process that describes the paths as $$N$$ particles or molecules move in random steps, to the FVM framework to model the particles' transport phenomena subject to external forces (e.g., gravity) and obstacles<d-cite key="song:2022:richards"></d-cite>. Such a concept has been used to solve partial differential equations with strong physical background, such as the heat<d-cite key="lawler2010random"></d-cite> and diffusion<d-cite key="sandev2018continuous"></d-cite> equations. In our case, we anticipate that the number of water molecules inside a unit volume of soil at any time is also a random process. With this, we can develop a systematic computational framework for solving the Richards equation effectively. Specifically, we use multi-layer neural network to learn a data-driven random walk model, which is then incorporated into a modified FVM scheme to obtain solutions of the Richards equation. Through an illustrative case study, we demonstrate the accuracy and effectiveness of our innovation solution framework and compare it with state-of-the-art numerical methods.
 
-***
+---
 
 ## FVM-based Discretization
 
@@ -72,7 +72,7 @@ $$
 \int_V  \partial_t\Theta(\psi)\mathbf{d}V=\int_V \nabla \cdot [\textbf{K}(\Theta)\nabla (\psi+z)]\mathbf{d}V
 $$
 
-To adopt the FVM, we discretize the control volume $$V$$ and its surface $$S_V$$ into $$N_{\omega}$$ small cells $$V_i$$ with $$i=1,\cdots, N_\omega$$, and small surfaces $$\omega$$ with volume $$A_\omega$$ with $$\omega=1,\cdots, N_\omega$$, respectively. Now, we discretize the integral equation by denoting the discretized version of the operator $$\textbf{K}(\cdot)\nabla (\cdot)$$ with respect to the small surface $$\omega$$ as $$[\textbf{K}(\cdot)\nabla (\cdot)]_\omega$$. 
+To adopt the FVM, we discretize the control volume $$V$$ and its surface $$S_V$$ into $$N_{\omega}$$ small cells $$V_i$$ with $$i=1,\cdots, N_\omega$$, and small surfaces $$\omega$$ with volume $$A_\omega$$ with $$\omega=1,\cdots, N_\omega$$, respectively. Now, we discretize the integral equation by denoting the discretized version of the operator $$\textbf{K}(\cdot)\nabla (\cdot)$$ with respect to the small surface $$\omega$$ as $$[\textbf{K}(\cdot)\nabla (\cdot)]_\omega$$.
 
 The RHS of the integral equation can be discretized by summing over $$[\textbf{K}(\cdot)\nabla (\cdot)]_\omega$$ for all $$\omega$$:
 
@@ -96,8 +96,7 @@ $$
 \end{aligned}
 $$
 
-
-***
+---
 
 ## Data-Driven Random Walk Algorithm
 
@@ -117,7 +116,7 @@ $$
 
 where $$\textbf{J}=\sum_{\omega=1}^{N_\omega} \textbf{K}_\omega^{m+1,s}\cdot\textbf{n}_\omega\frac{z_j^{m+1,s}-z_i^{m+1,s}}{d(j,i)}A_\omega-\frac{1}{L_i^{m+1,s}}\frac{\Theta_i^{m+1,s+1}-\Theta_i^m}{\Delta t}\text{vol}(V_i)$$.
 
-***
+---
 
 ## DRW Architecture
 

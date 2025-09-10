@@ -5,4 +5,4 @@ inline: true
 description: Zeyuan talks about his research work
 ---
 
-Graduate student Zeyuan Song was selected to present his work "*A Data-driven Random Walk Approach for Solving Water Flow Dynamics in Soil Systems*" at the 2023 CHE Spring Graduate Seminar. Congratulations!
+Graduate student Zeyuan Song was selected to present his work "_A Data-driven Random Walk Approach for Solving Water Flow Dynamics in Soil Systems_" at the 2023 CHE Spring Graduate Seminar. Congratulations!

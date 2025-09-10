@@ -29,7 +29,7 @@ profiles:
     image: people/tylee.jpg
     content: _members/tylee.md
     image_circular: false # crops the image to make it circular
-    more_info: 
+    more_info:
   - align: right
     image: people/alireza.jpg
     content: _members/alireza.md
@@ -39,5 +39,5 @@ profiles:
     image: people/mehrdad.jpg
     content: _members/mehrdad.md
     image_circular: false # crops the image to make it circular
-    more_info: 
+    more_info:
 ---

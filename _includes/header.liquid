@@ -4,18 +4,24 @@
     <div class="container">
       {% if site.enable_navbar_social != 0 %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          <img src="{{ '/assets/img/logo_s.svg' | relative_url }}"
-               alt="{% if site.title == 'Home' %}
-                      {% if site.first_name %}{{- site.first_name -}} {% endif %}
-                      {% if site.middle_name %}{{- site.middle_name -}} {% endif %}
-                      {% if site.last_name %}{{- site.last_name -}}{% endif %}
-                    {% else %}
-                      {{- site.title -}}
-                    {% endif %}">
+          <img
+            src="{{ '/assets/img/logo_s.svg' | relative_url }}"
+            alt="
+              {% if site.title == 'Home' %}
+                {% if site.first_name %}{{- site.first_name -}} {% endif %}
+                {% if site.middle_name %}{{- site.middle_name -}} {% endif %}
+                {% if site.last_name %}{{- site.last_name -}}{% endif %}
+              {% else %}
+                {{- site.title -}}
+              {% endif %}
+            "
+          >
           {% if site.title == 'Home' %}
-            {% if site.first_name %}<span class="font-weight-bold">{{- site.first_name -}}</span>{% endif %}
-            {% if site.middle_name %} {{- site.middle_name -}}{% endif %}
-            {% if site.last_name %} {{- site.last_name -}}{% endif %}
+            {% if site.first_name -%}
+              <span class="font-weight-bold">{{- site.first_name -}}</span>
+            {%- endif %}
+            {% if site.middle_name %}{{- site.middle_name -}}{% endif %}
+            {% if site.last_name %}{{- site.last_name -}}{% endif %}
           {% else %}
             {{- site.title -}}
           {% endif %}
