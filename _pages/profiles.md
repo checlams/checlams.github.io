@@ -10,6 +10,14 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
+    image: people/liangjie.jpg
+    content: _members/liangjie.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Engineering South</p>
+      <p>Oklahoma State University</p>
+      <p>Stillwater, OK 74078 USA</p>  
+  - align: right
     image: people/saba.jpg
     content: _members/saba.md
     image_circular: false # crops the image to make it circular
@@ -22,7 +30,7 @@ profiles:
     content: _members/zeyuan.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>049 Advanced Technology Research Center</p>
+      <p>Engineering South</p>
       <p>Oklahoma State University</p>
       <p>Stillwater, OK 74078</p>
   - align: right
