@@ -1,3 +1,12 @@
-plugins: ["@shopify/prettier-plugin-liquid"]
+plugins:
+  - "@shopify/prettier-plugin-liquid"
+
 printWidth: 150
-trailingComma: "es5"
+trailingComma: es5
+endOfLine: lf
+
+# 保险起见，显式指定 liquid 解析器（有些环境/扩展名需要这步）
+overrides:
+  - files: ["*.liquid", "*.html"]
+    options:
+      parser: liquid-html
