@@ -15,3 +15,4 @@ _site
 .sass-cache
 node_modules
 assets/vendor
+INSTALL.md
