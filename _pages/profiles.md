@@ -16,7 +16,7 @@ profiles:
     more_info: >
       <p>Engineering South</p>
       <p>Oklahoma State University</p>
-      <p>Stillwater, OK 74078 USA</p>  
+      <p>Stillwater, OK 74078 USA</p>
   - align: right
     image: people/saba.jpg
     content: _members/saba.md
