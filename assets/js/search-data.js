@@ -7,56 +7,56 @@ ninja.data = [{
     title: "Home",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/checlams.github.io/";
+      window.location.href = "/";
     },
   },{id: "nav-news",
           title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
           description: "Highlighted research from CLAMS",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-zheyu-jiang",
           title: "Zheyu Jiang",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-team",
           title: "Team",
           description: "members of the lab",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/checlams.github.io/people/";
+            window.location.href = "/people/";
           },
         },{id: "post-dr-zheyu-jiang-awarded-prestigious-nsf-career-award",
         
@@ -99,7 +99,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/checlams.github.io/projects/richards/";
+            window.location.href = "/projects/richards/";
           
         },
       },{id: "post-how-to-deploy-your-al-folio-themed-website-to-github-page-for-the-first-time",
@@ -110,7 +110,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/checlams.github.io/blog/2022/deploytutorial/";
+            window.location.href = "/blog/2022/deploytutorial/";
           
         },
       },{id: "post-our-new-paper-is-published-in-the-2022-futures-issue-of-aiche-journal",
@@ -132,7 +132,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/checlams.github.io/blog/2022/welcome/";
+            window.location.href = "/blog/2022/welcome/";
           
         },
       },{id: "post-we-are-hiring-one-to-two-graduate-students-to-join-clams",
@@ -143,7 +143,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/checlams.github.io/blog/2021/opening/";
+            window.location.href = "/blog/2021/opening/";
           
         },
       },{id: "post-dr-jiang-joins-osu-as-an-assistant-professor",
@@ -154,19 +154,19 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/checlams.github.io/blog/2021/JiangjoinsOSU/";
+            window.location.href = "/blog/2021/JiangjoinsOSU/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/checlams.github.io/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-dr-jiang-joins-osu-as-an-assistant-professor",
           title: 'Dr. Jiang joins OSU as an assistant professor',
           description: "The newly established CLAMS group led by Prof. Jiang will tackle fundamental problems in advanced manufacturing and sustainability by developing and applying various systems engineering tools.",
           section: "News",handler: () => {
-              window.location.href = "/checlams.github.io/news/210801JiangjoinsOSU/";
+              window.location.href = "/news/210801JiangjoinsOSU/";
             },},{id: "news-we-have-openings-for-1-2-graduate-students-starting-in-spring-fall-2022-the-position-has-been-filled",
           title: 'We have openings for 1-2 graduate students starting in Spring/Fall 2022!👋 The position...',
           description: "Graduate research assistant positions in process systems engineering",
@@ -177,7 +177,7 @@ ninja.data = [{
           title: 'CLAMS welcomes Zeyuan Song and Saba Ghasemi Naraghi as new graduate students!',
           description: "Welcome new students!",
           section: "News",handler: () => {
-              window.location.href = "/checlams.github.io/news/220110welcome/";
+              window.location.href = "/news/220110welcome/";
             },},{id: "news-clams-group-served-as-judges-at-the-2022-oklahoma-state-science-and-engineering-fair-ossef-on-march-26-and-27-held-at-the-osu-campus",
           title: 'CLAMS group served as judges at the 2022 Oklahoma State Science and Engineering...',
           description: "CLAMS group volunteered at 2022 Oklahoma State Science and Engineering Fair",
@@ -200,7 +200,7 @@ ninja.data = [{
           title: 'CLAMS welcomes Alireza Miraliakbar and Mehrdad Zomorodiyan as new graduate students!',
           description: "Welcome new students!",
           section: "News",handler: () => {
-              window.location.href = "/checlams.github.io/news/230122welcome/";
+              window.location.href = "/news/230122welcome/";
             },},{id: "news-prof-akash-deep-iem-and-dr-jiang-s-proposal-idea-on-soil-moisture-sensing-has-been-selected-by-the-rural-renewal-initiative-to-submit-a-full-proposal-they-will-receive-travel-funds-to-visit-a-rural-community",
           title: 'Prof. Akash Deep (IEM) and Dr. Jiang’s proposal idea on soil moisture sensing...',
           description: "Dr. Jiang receives travel grant from the Rural Renewal Initiative",
@@ -277,17 +277,17 @@ ninja.data = [{
           title: 'Data-Driven Computational Framework for Solving Complex PDEs',
           description: "Facilitating numerical solution by incorporating physics",
           section: "Projects",handler: () => {
-              window.location.href = "/checlams.github.io/projects/richards/";
+              window.location.href = "/projects/richards/";
             },},{id: "projects-innovating-future-generation-separation-technologies",
           title: 'Innovating future-generation separation technologies',
           description: "To improve energy efficiency and enable industrial decarbonization",
           section: "Projects",handler: () => {
-              window.location.href = "/checlams.github.io/projects/separations/";
+              window.location.href = "/projects/separations/";
             },},{id: "projects-sustainable-intensification-of-global-agriculture-and-food-systems",
           title: 'Sustainable intensification of global agriculture and food systems',
           description: "For sustainable, resilient production of food products",
           section: "Projects",handler: () => {
-              window.location.href = "/checlams.github.io/projects/sustainability/";
+              window.location.href = "/projects/sustainability/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
