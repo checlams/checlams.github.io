@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://checlams.github.io/sitemap.xml
+Sitemap: https://checlams.github.io/checlams.github.io/sitemap.xml
