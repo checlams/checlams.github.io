@@ -7,6 +7,12 @@ nav: true
 nav_order: 6
 ---
 
+In **Fall 2025**, I am co-teaching _CHE 4124 - Chemical Engineering Design I_ with [Prof. Josh Ramsey](https://ceat.okstate.edu/che/faculty-staff/josh-ramsey.html) again. At the same time, I am excited to offer a new elective course _CHE 4990 - Modern Energy Systems Analysis_ for senior undergraduate and graduate students. Modern energy systems are rapidly evolving to address the challenges of sustainability, reliability, and efficiency. This course provides a gentle yet comprehensive introduction to the quantitative analysis of modern energy systems. Together, we will explore topics such as ongoing shifts in U.S. energy landscape, renewable energy integration, power grid optimization, industrial decarbonization, energy storage systems, decentralized energy markets, and more.
+
+In **Spring 2025**, I taught _CHE 3113 - Rate Operations II_ for the fourth time. I received an overall teaching evaluation score of 4.62 out of 5 ("Excellent" rating) on end-of-semester course evaluation (response rate = 100%), a record high since I started teaching this course!
+
+In **Spring 2024**, I taught _CHE 3113 - Rate Operations II_ for the third time. I received an overall teaching evaluation score of 4.40 out of 5 ("Excellent" rating) on end-of-semester course evaluation (response rate = 45%).
+
 In **Fall 2023**, I taught _CHE 4124 - Chemical Engineering Design I_ for the second time, with [Prof. Clint Aichele](https://ceat.okstate.edu/che/faculty-staff/clint-aichele.html). I received an overall teaching evaluation score of 4.4 out of 5. In the Phillips 66 Design Project competition, we explored ways to maximize ultra-low-sulur diesel production from the sweet gas oil to improve overall process economics of hydrotreating process.
 
 In **Spring 2023**, I taught _CHE 3113 - Rate Operations II_ for the second time. I received an overall teaching evaluation score of 4.38 out of 5 ("Excellent" rating) on end-of-semester course evaluation (response rate = 95%).
