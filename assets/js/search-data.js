@@ -110,7 +110,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2022/deploytutorial/";
+            window.location.href = "/blog/2022/deployment/";
           
         },
       },{id: "post-our-new-paper-is-published-in-the-2022-futures-issue-of-aiche-journal",
