@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Highlighted research from CLAMS",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "",
@@ -285,7 +278,7 @@ ninja.data = [{
           section: "News",},{id: "news-dr-jiang-visited-university-of-oklahoma-and-gave-a-seminar-talk-toward-sustainable-chemical-and-food-production-via-process-systems-engineering-innovations-to-faculty-and-students-at-the-school-of-sustainable-chemical-biological-and-materials-engineering",
           title: 'Dr. Jiang visited University of Oklahoma and gave a seminar talk “Toward Sustainable...',
           description: "Prof. Jiang gave seminar talk",
-          section: "News",},{id: "news-our-paper-entitled-mp-fvm-enhancing-finite-volume-method-for-water-infiltration-modeling-in-unsaturated-soils-via-message-passing-encoder-decoder-network-is-accepted-for-publication-in-computers-and-geotechnics-one-of-the-premier-journals-in-civil-environmental-engineering-and-geotechnics-this-paper-presents-a-novel-data-driven-numerical-scheme-for-solving-n-dimensional-richards-equation-with-superior-accuracy-and-stability",
+          section: "News",},{id: "news-our-paper-entitled-mp-fvm-enhancing-finite-volume-method-for-water-infiltration-modeling-in-unsaturated-soils-via-message-passing-encoder-decoder-network-is-accepted-by-computers-and-geotechnics-one-of-the-premier-journals-in-civil-environmental-engineering-and-geotechnics-this-paper-presents-a-novel-data-driven-numerical-scheme-for-solving-n-dimensional-richards-equation-with-superior-accuracy-and-stability",
           title: 'Our paper entitled “MP-FVM: Enhancing Finite Volume Method for Water Infiltration Modeling in...',
           description: "Zeyuan publishes on Computers and Geotechnics",
           section: "News",},{id: "projects-data-driven-computational-framework-for-solving-complex-pdes",
