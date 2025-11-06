@@ -25,4 +25,6 @@ profiles:
       <p>Engineering South</p>
       <p>Oklahoma State University</p>
       <p>Stillwater, OK 74078</p>
+  - align: right
+    content: _members/tylee.md
 ---
