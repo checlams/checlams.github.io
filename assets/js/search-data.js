@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Highlighted research from CLAMS",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "",
@@ -84,15 +91,15 @@ ninja.data = [{
             window.open("https://news.okstate.edu/articles/engineering-architecture-technology/2024/two_osu_engineering_professors_receive_nsf_eager_award_to_study_ways_to_decarbonize_heavy_industries.html", "_blank");
           
         },
-      },{id: "post-a-data-driven-computational-framework-for-solving-complex-pdes",
+      },{id: "post-data-driven-computational-framework-for-solving-complex-pdes",
         
-          title: "A Data-Driven Computational Framework for Solving Complex PDEs",
+          title: "Data-Driven Computational Framework for Solving Complex PDEs",
         
         description: "Facilitating numerical solution by incorporating physics",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/projects/richards/";
+            window.location.href = "/blog/2022/drwfocapo/";
           
         },
       },{id: "post-how-to-deploy-your-al-folio-themed-website-to-github-page-for-the-first-time",
@@ -281,11 +288,14 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-entitled-mp-fvm-enhancing-finite-volume-method-for-water-infiltration-modeling-in-unsaturated-soils-via-message-passing-encoder-decoder-network-is-accepted-by-computers-and-geotechnics-one-of-the-premier-journals-in-civil-environmental-engineering-and-geotechnics-this-paper-presents-a-novel-data-driven-numerical-scheme-for-solving-n-dimensional-richards-equation-with-superior-accuracy-and-stability",
           title: 'Our paper entitled “MP-FVM: Enhancing Finite Volume Method for Water Infiltration Modeling in...',
           description: "Zeyuan publishes on Computers and Geotechnics",
-          section: "News",},{id: "projects-data-driven-computational-framework-for-solving-complex-pdes",
-          title: 'Data-Driven Computational Framework for Solving Complex PDEs',
-          description: "Facilitating numerical solution by incorporating physics",
+          section: "News",},{id: "news-zeyuan-and-saba-successfully-defended-their-phd-dissertations-on-december-3-and-4-respectively-saba-will-head-to-american-airlines-as-a-full-time-research-scientist-and-zeyuan-will-begin-his-postdoc-in-the-department-of-mathematics-at-lehigh-university-working-with-prof-yue-yu-on-neural-operator-learning-congratulations-dr-song-and-dr-ghasemi-more-news-to-come",
+          title: 'Zeyuan and Saba successfully defended their PhD dissertations on December 3 and 4,...',
+          description: "PhD defense",
+          section: "News",},{id: "projects-research-statement",
+          title: 'Research Statement',
+          description: "Overall research objectives and rationale, as well as ongoing research projects",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/richards/";
+              window.location.href = "/projects/researchstatement/";
             },},{id: "projects-innovating-future-generation-separation-technologies",
           title: 'Innovating future-generation separation technologies',
           description: "To improve energy efficiency and enable industrial decarbonization",
