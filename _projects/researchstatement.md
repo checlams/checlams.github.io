@@ -2,7 +2,7 @@
 layout: page
 title: Research Statement
 description: Overall research objectives and rationale, as well as ongoing research projects
-img: assets/img/projects/chemical plant.jpg
+img: assets/img/projects/researchstatement.jpg
 importance: 1
 ---
 

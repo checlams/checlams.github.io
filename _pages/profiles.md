@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Team
-description: members of the lab
+description: current and past members of the lab
 nav: true
 nav_order: 7
 
@@ -25,6 +25,10 @@ profiles:
       <p>Engineering South</p>
       <p>Oklahoma State University</p>
       <p>Stillwater, OK 74078</p>
+  - align: right
+    content: _members/cole.md
+  - align: right
+    content: _members/chris.md
   - align: right
     content: _members/tylee.md
 ---
