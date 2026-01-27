@@ -1,14 +1,3 @@
-# Zeyuan Song
+# 🎓 Zeyuan Song
 
-I started in Spring 2022 as a graduate research assistant at CLAMS.
-
-- position: Graduate Student
-- phone: (405) 332-6460
-- email: taekwon.song@okstate.edu
-
-I have been a graduate student in Prof. Jiang's CLAMS group since Spring 2022. Before that, I earned my M.Sc. degree in Mathematics from the [University of Macau](https://www.um.edu.mo/) and B.Sc. degrees in Statistics and Law from [Shandong University of Science and Technology](https://en.sdust.edu.cn/) in China. Currently, I am AI for Science related to solving forward and inverse problems for partial differential equations, with applications in precision agriculture. My CV can be found [here]({{ '_pages/Zeyuan.pdf' | relative_url }}).
-
-## Education
-
-- M.Sc. -- University of Macau, Mathematics (2020-2022)
-- B.Sc. -- Shandong University of Science and Technology, Double major in Statistics and Law (2015-2019)
+I was a graduate research assistant at CLAMS from Spring 2022 to Fall 2025. I successfully defended my Ph.D. dissertation "[Advances in Numerical Partial Differential Equations: From Discretization-based Solvers to Neural Operators]({{ 'assets/pdf/thesis/Zeyuan_Dissertation.pdf' | relative_url }})" in December 2025. My first appointment after Ph.D. is Postdoctoral Research Associate in the [Department of Mathematics](https://math.cas.lehigh.edu/) at [Lehigh University](https://www2.lehigh.edu/), working with Prof. [Yue Yu](https://www.lehigh.edu/~yuy214/). My CV prior to graduation can be found [here]({{ '_pages/Zeyuan.pdf' | relative_url }}).

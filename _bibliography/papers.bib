@@ -243,7 +243,30 @@ preview = {tep.png},
     abstract = {The spatiotemporal water flow dynamics in unsaturated soils can generally be modeled by the Richards equation. To overcome the computational challenges associated with solving this highly nonlinear partial differential equation (PDE), we present a novel solution algorithm, which we name as the MP-FVM (Message Passing-Finite Volume Method), to holistically integrate adaptive fixed-point iteration scheme, encoder-decoder neural network architecture, Sobolev training, and message passing mechanism in a finite volume discretization framework. We thoroughly discuss the need and benefits of introducing these components to achieve synergistic improvements in accuracy and stability of the solution. We also show that our MP-FVM algorithm can accurately solve the mixed-form n-dimensional Richards equation with guaranteed convergence under reasonable assumptions. Through several illustrative examples, we demonstrate that our MP-FVM algorithm not only achieves superior accuracy, but also better preserves the underlying physical laws and mass conservation of the Richards equation compared to state-of-the-art solution algorithms and the commercial HYDRUS solver.},
 }
 
+@inproceedings{iclr2026,
+    abbr = {ICLR 2026},
+    title={Adaptive Mamba Neural Operators}, 
+    author={Zeyuan Song and Zheyu Jiang},
+    year={2026},
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    url = {https://openreview.net/forum?id=OenyzvFZPs},
+    pdf = {paper/AFMOICLR2026.pdf},
+    bibtex_show = {true},
+    preview = {afmo.png},
+    abstract = {Accurately solving partial differential equations (PDEs) on arbitrary geometries and a variety of meshes is an important task in science and engineering applications. In this paper, we propose Adaptive Fourier Mamba Operators (AFMO), which integrates reproducing kernels for state-space models (SSMs) rather than the kernel integral formulation of SSMs. This is achieved by constructing Takenaka-Malmquist systems for the PDEs. AFMO offers new representations that align well with the adaptive Fourier decomposition (AFD) theory and can approximate the solution manifold of PDEs on a wide range of geometries and meshes. In several challenging benchmark PDE problems in the field of fluid physics, solid physics, and finance on point clouds, structured meshes, regular grids, and irregular domains, AFMO consistently outperforms state-of-the-art solvers in terms of relative L^2 error. Overall, this work presents a new paradigm for designing explainable neural operator frameworks.},
+}
 
+@inproceedings{icassp2026,
+    abbr = {ICASSP 2026},
+    title={On Optimization of Poles for Adaptive Fourier Decomposition-inspired Neural Layers}, 
+    author={Zeyuan Song and Zheyu Jiang},
+    year={2026},
+    booktitle={2026 IEEE International Conference on Acoustics, Speech, and Signal Processing},
+    pdf = {paper/ICASSP_2026.pdf},
+    bibtex_show = {true},
+    preview = {icassp_2026.png},
+    abstract = {Spectral methods and their variants are important numerical approaches for solving PDE problems. However, the performance of these methods deteriorates when solutions contain singularities or sharp gradients. In this work, we integrate Adaptive Fourier Decomposition (AFD) with Blaschke-type bases into a neural operator architecture for solving forward and inverse PDEs. A central challenge in AFD-inspired neural operator is how to select AFD poles, which lie on the unit disk (a Riemannian manifold), and network hyperparameters, which lie in Euclidean space. We address this in an optimization framework, which alternates between Riemannian gradient steps for pole updates and Euclidean steps for network parameters. We prove descent and linear convergence to first-order critical points under standard strong-convexity and cross-block coupling conditions. A greedy outer loop adaptively increases the number of poles and is provably convergent, attaining the global optimum when the target is exactly representable. Experiments on Burgers' (forward problem) and Darcy flow (inverse problem) equations demonstrate improved accuracy and efficiency over Euclidean-only variants and competitive baseline methods, illustrating the need and benefits of manifold-aware pole optimization in AFD-based neural operators.}
+}
 
 @inproceedings{song:2023:richards,
 abbr = {FOCAPO/CPC 2023},
@@ -254,7 +277,6 @@ year={2023},
 month={January},
 address={San Antonio, TX},
 pdf = {paper/drw_focapo.pdf},
-note = {In production},
 abstract = {Modeling and predicting soil moisture is essential for precision agriculture, smart irrigation, and drought prevention. In this work, we introduce a novel data-driven random walk (DRW) approach to solve $n$-dimensional Richards equation, a complex partial differential equation that characterizes water flow dynamics in soil. This advanced computational framework integrates multiple features, including finite volume discretization, adaptive L-scheme, multi-layer neural networks, and the concept of random walk to enable fast and accurate numerical solution of the Richards equation. Through an illustrative example, we demonstrate the accuracy and attractiveness of this novel approach. In particular, we show that our DRW approach can implicitly capture the underlying physical relationships among soil moisture content, pressure head, and flux, which will enable more accurate characterization of water flow dynamics.},
 bibtex_show = {true},
 preview = {drw_focapo.svg},
