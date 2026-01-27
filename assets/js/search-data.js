@@ -30,19 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-zheyu-jiang",
           title: "Zheyu Jiang",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-team",
+          title: "Team",
+          description: "Current and past members of the lab",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
@@ -51,14 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-team",
-          title: "Team",
-          description: "current and past members of the lab",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "post-dr-zheyu-jiang-awarded-prestigious-nsf-career-award",
+        },{id: "post-clams-publishes-findings-on-breakthrough-soil-moisture-monitoring",
+        
+          title: 'CLAMS publishes findings on breakthrough soil moisture monitoring <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "CLAMS research is featured in OSU News.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://news.okstate.edu/articles/engineering-architecture-technology/2026/che_research_featured_in_computers_and_geotechnics_journal.html", "_blank");
+          
+        },
+      },{id: "post-our-research-is-featured-in-osu-39-s-impact-2025-magazine",
+        
+          title: 'Our research is featured in OSU&#39;s IMPACT 2025 Magazine <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "CLAMS research and Dr. Jiang&#39;s NSF CAREER Award were featured in OSU News.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://issuu.com/brandosu/docs/impact_2025/42", "_blank");
+          
+        },
+      },{id: "post-dr-zheyu-jiang-awarded-prestigious-nsf-career-award",
         
           title: 'Dr. Zheyu Jiang awarded prestigious NSF CAREER Award <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -294,6 +309,12 @@ ninja.data = [{
           section: "News",},{id: "news-zeyuan-and-saba-successfully-defended-their-phd-dissertations-on-december-3-and-4-respectively-saba-will-head-to-american-airlines-as-a-data-scientist-in-its-operations-and-performance-team-and-zeyuan-will-begin-his-postdoc-in-the-department-of-mathematics-at-lehigh-university-working-with-prof-yue-yu-on-neural-operator-learning-congratulations-dr-song-and-dr-ghasemi",
           title: 'Zeyuan and Saba successfully defended their PhD dissertations on December 3 and 4,...',
           description: "PhD defense",
+          section: "News",},{id: "news-our-paper-entitled-on-optimization-of-poles-for-adaptive-fourier-decomposition-inspired-neural-layers-is-accpeted-by-icassp-2026-one-of-the-top-conferences-in-acoustics-speech-and-signal-processing-this-work-presents-a-novel-approach-to-optimize-pole-locations-and-network-hyperparameters-for-adaptive-fourier-decomposition-inspired-neural-operators-to-improve-its-accuracy-in-solving-partial-differential-equations",
+          title: 'Our paper entitled On Optimization of Poles for Adaptive Fourier Decomposition-inspired Neural Layers...',
+          description: "Zeyuan publishes on ICASSP",
+          section: "News",},{id: "news-our-paper-entitled-adaptive-mamba-neural-operators-is-accpeted-by-iclr-2026-this-work-which-presents-a-new-paradigm-for-designing-explainable-neural-operator-frameworks-for-solving-partial-differential-equations-on-manifolds-marks-the-first-publication-from-oklahoma-schools-in-this-top-venue-for-ai-machine-learning-research",
+          title: 'Our paper entitled Adaptive Mamba Neural Operators is accpeted by ICLR 2026. This...',
+          description: "Zeyuan publishes on ICLR",
           section: "News",},{id: "projects-research-statement",
           title: 'Research Statement',
           description: "Overall research objectives and rationale, as well as ongoing research projects",
