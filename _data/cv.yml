@@ -46,6 +46,8 @@
   contents:
     - year: 2021 - Present
       items:
+        - 2026 Professor of the Year Award, OSU School of Chemical Engineering
+        - 2026 OSU College of Engineering, Architecture, and Technology Excellent Faculty Award
         - 2025 National Science Foundation CAREER Award
         - 2023 FOPAM 2023 Travel Award for Junior Faculty
         - 2022 Early-career pioneering research featured in 2022 Futures Issue of AIChE Journal
@@ -72,7 +74,7 @@
 - title: Group Expertise
   type: list
   contents:
-    - <u>Multi-scale modeling:</u> first-principle based mathematical modeling, neural ODE/PDE solvers, physics-informed machine learning
+    - <u>Multi-scale modeling:</u> first-principle based mathematical modeling, neural operator learning, physics-informed machine learning
     - <u>AI for science:</u> digital twin solutions, efficient and scalable algorithm development for inverse problem
     - <u>Explainable AI:</u> new ML architectures with enhanced interpretability/explainability and favorable mathematical properties
     - <u>Optimization:</u> deterministic/stochastic optimization, robust optimization, Bayesian optimization, global optimization

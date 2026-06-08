@@ -268,6 +268,37 @@ preview = {tep.png},
     abstract = {Spectral methods and their variants are important numerical approaches for solving PDE problems. However, the performance of these methods deteriorates when solutions contain singularities or sharp gradients. In this work, we integrate Adaptive Fourier Decomposition (AFD) with Blaschke-type bases into a neural operator architecture for solving forward and inverse PDEs. A central challenge in AFD-inspired neural operator is how to select AFD poles, which lie on the unit disk (a Riemannian manifold), and network hyperparameters, which lie in Euclidean space. We address this in an optimization framework, which alternates between Riemannian gradient steps for pole updates and Euclidean steps for network parameters. We prove descent and linear convergence to first-order critical points under standard strong-convexity and cross-block coupling conditions. A greedy outer loop adaptively increases the number of poles and is provably convergent, attaining the global optimum when the target is exactly representable. Experiments on Burgers' (forward problem) and Darcy flow (inverse problem) equations demonstrate improved accuracy and efficiency over Euclidean-only variants and competitive baseline methods, illustrating the need and benefits of manifold-aware pole optimization in AFD-based neural operators.}
 }
 
+@inproceedings{uai2026,
+    abbr = {UAI 2026},
+    title={Adaptive Fourier Decomposition-guided Neural Operator Design for Inverse {PDE} Problems},
+    author={Zeyuan Song and Xiaocong Zhen and Zheyu Jiang},
+    booktitle={Forty-Second Annual Conference on Uncertainty in Artificial Intelligence},
+    year={2026},
+    pdf = {paper/AFDONet-inv2026.pdf},
+    bibtex_show = {true},
+    preview = {afdonet-inv.png},
+    abstract = {Inverse problems, which are generally ill-posed, aim to identify the unknown parameters of a physical system from the observations of its output. A large class of inverse problems for partial differential equations (PDEs) are only well-defined as mappings from operators to functions. However, existing operator learning frameworks either do not explicitly account for the underlying operator space or solve the inverse problems in a Hilbert space. Meanwhile, it has been shown that a Banach space setting for the parameter space would be closer to reality for a wide range of problems. Driven by this, we introduce AFDONet-inv, a novel neural operator solver whose design is rigorously guided by adaptive Fourier decomposition (AFD) theory, to solve inverse problems for PDEs in a Banach space. Each component of AFDONet-inv's architecture, including primal and dual nets, latent-to-RKBS (reproducing kernel Banach space) network, and dynamic convolutional kernel network (CKN), has a corresponding component in the AFD operation in Banach space. This way, AFDONet-inv is mathematically explainable and grounded in the AFD theory and possesses several desirable properties. Extensive experiments demonstrate that AFDONet-inv outperforms state-of-the-art inverse PDE solvers in terms of solution accuracy.},
+    url={https://openreview.net/forum?id=W7mL4bR8XY}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @inproceedings{song:2023:richards,
 abbr = {FOCAPO/CPC 2023},
 author = {Song, Zeyuan and Jiang, Zheyu},
