@@ -281,6 +281,19 @@ preview = {tep.png},
     url={https://openreview.net/forum?id=W7mL4bR8XY}
 }
 
+@inproceedings{icmlllm,
+    abbr = {ICML 2026},
+    title={Can Large Language Model Design Effective Neural Operators for Solving Partial Differential Equations?},
+    author={Zeyuan Song and Xiaocong Zhen and Zheyu Jiang},
+    booktitle={Forty-Third International Conference on Machine Learning (ICML) 3rd AI for Math Workshop: Toward Self-Evolving Scientific Agents},
+    year={2026},
+    pdf = {paper/LLM_ICML2026.pdf},
+    bibtex_show = {true},
+    preview = {llm.png},
+    abstract = {Accurate numerical solutions of partial differential equations (PDEs) are crucial in numerous science and engineering applications. While neural operators can significantly accelerate the PDE solution process, designing neural architectures that target PDE structure, tailor problem specifications, and train reliably still requires substantial expert knowledge and human effort. We ask whether a large language model can design neural operators end-to-end. We present a four-agent design pipeline with distinct roles: Theorist, Programmer, Critic, and Refiner. The Theorist selects a mathematically grounded operator for a user-specified PDE and derives its formulation. The Programmer produces a self-contained PyTorch implementation. The Critic performs an adversarial review to expose numerical and software issues. The Refiner applies targeted corrections. An automated PDE solver completes the loop by generating data, training the synthesized model, and reporting evaluation metrics and plots. Across extensive PDE benchmark problems, the LLM-designed operators consistently outperform strong baselines in accuracy and sample efficiency, while remaining stable under varied discretizations and noisy initial conditions. Ablation studies show that the Critic and Refiner steps are essential for numerical stability and generalization. These results suggest that LLMs can act as principled collaborative designers of PDE operators, translating problem statements into executable and competitive architectures and moving toward automated and theory-aware scientific machine learning.},
+    url={https://openreview.net/forum?id=6GCIuS0oO0}
+}
+
 
 
 
