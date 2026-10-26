@@ -243,6 +243,47 @@ preview = {tep.png},
     abstract = {The spatiotemporal water flow dynamics in unsaturated soils can generally be modeled by the Richards equation. To overcome the computational challenges associated with solving this highly nonlinear partial differential equation (PDE), we present a novel solution algorithm, which we name as the MP-FVM (Message Passing-Finite Volume Method), to holistically integrate adaptive fixed-point iteration scheme, encoder-decoder neural network architecture, Sobolev training, and message passing mechanism in a finite volume discretization framework. We thoroughly discuss the need and benefits of introducing these components to achieve synergistic improvements in accuracy and stability of the solution. We also show that our MP-FVM algorithm can accurately solve the mixed-form n-dimensional Richards equation with guaranteed convergence under reasonable assumptions. Through several illustrative examples, we demonstrate that our MP-FVM algorithm not only achieves superior accuracy, but also better preserves the underlying physical laws and mass conservation of the Richards equation compared to state-of-the-art solution algorithms and the commercial HYDRUS solver.},
 }
 
+@article{xuntangaiche,
+    abbr = {AIChE},
+    title = {Online Adaptive Model-based Stochastic Control with Limited Data: A Case Study with A Colloidal Self-Assembly System},
+    journal = {AIChE Journal},
+    volume = {72},
+    number = {},
+    pages = {e70662},
+    year = {2026},
+    doi = {https://doi.org/10.1002/aic.70662},
+    author = {Syeda {Simra Shoaib} and Henry Hanchey and Wei Sun and Zheyu Jiang and Xun Tang},
+    pdf = {paper/xuntangaiche.pdf},
+    bibtex_show = {true},
+    preview = {xuntangaiche.jpg},
+    abstract = {Data-driven optimal control is receiving increasing attention in colloidal self-assembly. While model-based control can suffer from predictive model errors, model-free control such as reinforcement learning can struggle with policy training which can result in waste of materials. Here we proposed an online adaptive model-based stochastic model predictive control framework to address the challenge of limited data for predictive model development. We evaluated its performance on a colloidal self-assembly system using Markov state models as the surrogate physical system. Results showed that online adaptation can substantially improve the prediction accuracy of an initially inaccurate model, enabling stochastic model predictive control to yield satisfactory performance. We further found that the control performance is dependent on objective function design and improved overall model accuracy does not necessarily guarantee better control. We anticipate the framework to also be applicable to other systems, where obtaining large amount of data for model development is challenging.},
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @inproceedings{iclr2026,
     abbr = {ICLR 2026},
     title={Adaptive Mamba Neural Operators}, 
@@ -294,23 +335,18 @@ preview = {tep.png},
     url={https://openreview.net/forum?id=6GCIuS0oO0}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@inproceedings{afdonet,
+    abbr = {NeurIPS 2026},
+    title={Theory Guided and Interpretable Neural Operator Design for Partial Differential Equation Learning},
+    author={Zeyuan Song and Zheyu Jiang},
+    booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+    year={2026},
+    url={https://openreview.net/forum?id=ddVTfTf0U6},
+    pdf = {paper/afdonet.pdf},
+    bibtex_show = {true},
+    preview = {afdonet_fig.png},
+    abstract = {Accurate numerical solutions of partial differential equations (PDEs) are crucial in numerous science and engineering applications. In this work, we introduce a novel neural PDE solver named AFDONet, which incorporates neural operator learning and adaptive Fourier decomposition (AFD) theory for the first time into a specifically designed variational autoencoder (VAE) structure, to solve a general class of nonlinear PDEs on smooth manifolds. AFDONet is the first neural PDE solver whose architectural and component design is fully guided by an established mathematical framework (in this case, AFD theory), turning neural operator design from an art to a science. Thus, AFDONet also exhibits exceptional mathematical explainability and groundness, and enjoys several desired properties. Furthermore, AFDONet achieves outstanding solution accuracy and competitive computational efficiency in several benchmark problems. In particular, thanks to its deep connections with AFD theory, AFDONet shows superior performance in solving PDEs on i) arbitrary (Riemannian) manifolds, and ii) datasets with sharp gradients. Overall, this work presents a new paradigm for designing explainable neural operator frameworks.},
+}
 
 @inproceedings{song:2023:richards,
 abbr = {FOCAPO/CPC 2023},

@@ -1,0 +1,3 @@
+# 📚 Xiaoqun Li
+
+I started in Fall 2026 as a graduate research assistant at CLAMS. Before that, I earned my B.S. and M.S. degrees in Applied Mathematics from Yangtze University in China and Statistical Data Analysis from Australian National University in Australia. Currently, I'm working on optimal control related to pharmaceutical manufacturing. My CV can be found [here]({{ '_pages/Xiaoqun.pdf' | relative_url }}).

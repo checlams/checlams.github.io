@@ -18,9 +18,13 @@ profiles:
     #   <p>Oklahoma State University</p>
     #   <p>Stillwater, OK 74078 USA</p>
   - align: right
-    content: _members/cole.md
+    image: people/xiaoqun.png
+    content: _members/xiaoqun.md
+    image_circular: false # crops the image to make it circular
   - align: right
     content: _members/chris.md
+  - align: right
+    content: _members/cole.md
   - align: right
     content: _members/saba.md
     image: people/saba.jpg
